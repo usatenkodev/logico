@@ -443,7 +443,7 @@ template {
 }
 
 .header {
-  padding: 32px 207px 32px 364px;
+  padding: 32px 364px 32px;
 }
 
 .header_container {
@@ -615,7 +615,7 @@ template {
 }
 
 .services_container {
-  padding: 139px 0 203px;
+  padding: 0 0 203px;
 }
 
 .services_head {
@@ -627,7 +627,7 @@ template {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 600px;
-  margin: 0 300px 120px;
+  padding: 139px 364px 120px;
 }
 
 .services_head_title {
@@ -727,7 +727,7 @@ template {
       -ms-flex-align: center;
           align-items: center;
   background-color: #202E6F;
-  padding: 64px 350px 122px;
+  padding: 64px 364px 122px;
 }
 
 .ourTeam_head {
@@ -936,8 +936,12 @@ template {
   transition: color 0.3s ease-in-out;
 }
 
+.caseStudies_header {
+padding: 140px 364px 0;
+}
+
 .caseStudies {
-  padding: 140px 0;
+  padding: 0 0 140px
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1014,8 +1018,6 @@ template {
 
 .caseStudies_content_item:hover .caseStudies_content_item_top {
   height: 20%;
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
   -webkit-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -1179,7 +1181,6 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 1520px;
 }
 
 .formSection_form {
@@ -1280,13 +1281,11 @@ template {
 }
 
 .footer {
-  width: 973px;
   height: 100%;
   padding: 30px 0 90px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
 }
 
 .footer_top {
@@ -1392,7 +1391,7 @@ template {
 
 @media (max-width: 1920px) {
   .header {
-    padding: 1.667vw 10.781vw 1.667vw 19.063vw;
+    padding: 1.667vw 19.063vw 1.667vw 19.063vw;
   }
 
   .header_logo_img {
@@ -1421,7 +1420,7 @@ template {
   }
 
   .upperBanner_container {
-    padding: 5.833vw 12.083vw 5vw 11.146vw;
+    padding: 5.833vw 11.146vw 5vw 11.146vw;
   }
 
   .upperBanner_info {
@@ -1451,11 +1450,11 @@ template {
   }
 
   .services_container {
-    padding: 7.292vw 0 10.625vw;
+    padding: 0 0 10.625vw;
   }
 
   .services_head {
-    margin: 0 15.625vw 6.25vw;
+    padding: 7.292vw 0 6.25vw 19.063vw;
   }
 
   .services_head_title {
@@ -1505,7 +1504,7 @@ template {
   }
 
   .ourTeam_container {
-    padding: 3.333vw 18.229vw 6.354vw;
+    padding: 3.333vw 19.063vw 6.354vw;
   }
 
   .ourTeam_head {
@@ -1628,8 +1627,12 @@ template {
     margin-right: 0.469vw;
   }
 
+  .caseStudies_header {
+  padding: 7.292vw 19.063vw 0;
+  }
+
   .caseStudies {
-    padding: 7.292vw 0;
+    padding: 0 0 7.292vw;
   }
 
   .caseStudies_margined {
@@ -1774,8 +1777,7 @@ template {
   }
 
   .footer {
-    width: 50.6771vw;
-    padding: 1.563vw 0 4.688vw;
+    padding: 1.563vw 11.146vw 4.688vw;
   }
 
   .footer_top {
