@@ -941,7 +941,7 @@ padding: 140px 364px 0;
 }
 
 .caseStudies {
-  padding: 0 0 140px
+  padding: 0 0 140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -991,9 +991,9 @@ padding: 140px 364px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .caseStudies_content_item {
@@ -1018,6 +1018,8 @@ padding: 140px 364px 0;
 
 .caseStudies_content_item:hover .caseStudies_content_item_top {
   height: 20%;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
   -webkit-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -1352,7 +1354,6 @@ padding: 140px 364px 0;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
   margin-bottom: 90px;
 }
 
@@ -1429,7 +1430,7 @@ padding: 140px 364px 0;
 
   .upperBanner_info_title {
     line-height: 6.25vw;
-    font-size: 5.729vw;
+    font-size: 4.5vw;
   }
 
   .upperBanner_info_description {
@@ -1674,7 +1675,7 @@ padding: 140px 364px 0;
 
   .caseStudies_content_item_title {
     font-family: "Montserrat";
-    font-size: 1.094vw;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 700;
     line-height: 1.4;
